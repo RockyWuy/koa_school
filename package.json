@@ -1,0 +1,30 @@
+{
+  "name": "school_koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/app.js 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CiciSeven/schoolKoa.git"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "rockyWu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CiciSeven/schoolKoa/issues"
+  },
+  "homepage": "https://github.com/CiciSeven/schoolKoa#readme",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {}
+}
